@@ -23,7 +23,6 @@ import { DiResponsive } from "react-icons/di";
 import { VscVscode } from "react-icons/vsc";
 import { MdGroups3 } from "react-icons/md";
 
-import cartoonMe from "../assets/images/cartoonMe.png";
 import NEXTJS_PROJECT from "../assets/images/hulu_clone_next_js.png";
 import ios_war_game from "../assets/images/ios_war_game.png";
 import ios_weather_app_ui from "../assets/images/ios_weather_app_ui.png";

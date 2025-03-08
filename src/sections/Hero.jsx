@@ -1,9 +1,9 @@
 import React from "react";
 
 import cartoonMe from "../assets/images/cartoonMe.png";
-import HeroIcon from "../components/heroIcon";
 import { STATS } from "../utils/data";
 import StatInforCard from "../components/StatInforCard";
+import HeroIcon from "../components/HeroIcon";
 
 const Hero = () => {
   const handleViewWork = () => {
