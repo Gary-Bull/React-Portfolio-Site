@@ -4,6 +4,7 @@ import cartoonMe from "../assets/images/cartoonMe.png";
 import { STATS } from "../utils/data";
 import StatInforCard from "../components/StatInforCard";
 import HeroIcon from "../components/HeroIcon";
+import Pdf from "../assets/Gary_Bull.pdf";
 
 const Hero = () => {
   const handleViewWork = () => {
@@ -16,14 +17,9 @@ const Hero = () => {
       });
     }
   };
-  const handleViewSkills = () => {
-    const skills = document.getElementById("skills");
-    if (skills) {
-      skills.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        top: -50,
-      });
+  const handleViewResume = () => {
+    if (Pdf) {
+      window.open(Pdf, "_blank");
     }
   };
 
@@ -54,9 +50,9 @@ const Hero = () => {
             </button>
             <button
               className="flex-1 md:flex-none action-btn btn-scale-anim cursor-pointer"
-              onClick={handleViewSkills}
+              onClick={handleViewResume}
             >
-              View My Skills
+              My Resume
             </button>
           </div>
         </div>
