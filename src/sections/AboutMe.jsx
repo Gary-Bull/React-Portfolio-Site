@@ -5,7 +5,10 @@ import { ABOUT_ME } from "../utils/data";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="container max-w-7xl mx-auto px-8 py-16">
+    <section
+      id="about"
+      className="container max-w-7xl mx-auto pt-48 pb-8 pl-16 pr-16"
+    >
       <h4 className="block lg:hidden w-[200px] section-title text-left mb-16">
         About Me
       </h4>
