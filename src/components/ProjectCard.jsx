@@ -1,13 +1,15 @@
 import React from "react";
 
-const ProjectCard = ({ imgUrl, title, description, tags }) => {
+const ProjectCard = ({ imgUrl, title, description, tags, link }) => {
   return (
     <div className="h-full bg-white rounded-xl overflow-hidden shadow-md mx-2">
-      <img
-        src={imgUrl}
-        alt={title}
-        className="w-full h-72 md:h-80 object-cover"
-      />
+      <a href={link} className="hover: cursor-pointer" target="_blank">
+        <img
+          src={imgUrl}
+          alt={title}
+          className="w-full h-72 md:h-80 object-cover"
+        />
+      </a>
       <div className="h-full px-4 py-5 bg-linear-to-t from-[#ECFAFCFF] to-[#ffffff]">
         <h3 className="text-base font-semibold line-clamp-2 overflow-hidden text-ellipsis">
           {title}

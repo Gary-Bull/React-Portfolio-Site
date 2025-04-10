@@ -34,6 +34,11 @@ const MyProjects = () => {
           performace and user experience.
         </p>
 
+        <p className="text-sm text-center mt-4 leading-6">
+          Please click on the image of the project to go to the site or github
+          page
+        </p>
+
         <div className="relative mx-auto">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex pt-14 pb-8">
@@ -48,6 +53,7 @@ const MyProjects = () => {
                     title={project.title}
                     description={project.description}
                     tags={project.tags}
+                    link={project.link}
                   />
                 </div>
               ))}
