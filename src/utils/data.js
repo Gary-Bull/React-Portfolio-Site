@@ -12,14 +12,14 @@ import { RiNextjsLine } from "react-icons/ri";
 import {
   SiTailwindcss,
   SiSwift,
-  SiDart,
-  SiFlutter,
-  SiTypescript,
+  // SiDart,
+  // SiFlutter,
+  // SiTypescript,
   SiJira,
   SiConfluence,
 } from "react-icons/si";
-import { LuCircleDashed } from "react-icons/lu";
-import { DiResponsive } from "react-icons/di";
+// import { LuCircleDashed } from "react-icons/lu";
+// import { DiResponsive } from "react-icons/di";
 import { VscVscode } from "react-icons/vsc";
 import { MdGroups3 } from "react-icons/md";
 
@@ -27,12 +27,13 @@ import NEXTJS_PROJECT from "../assets/images/hulu_clone_next_js.png";
 import ios_war_game from "../assets/images/ios_war_game.png";
 import ios_weather_app_ui from "../assets/images/ios_weather_app_ui.png";
 import ios_movie_app_api_lookup from "../assets/images/ios_movie_app_api_lookup.png";
-import flutter_todo_app from "../assets/images/flutter_todo_app.png";
-import flutter_ecommerce_app from "../assets/images/flutter_ecommerce_app.png";
-import flutter_habit_tracker from "../assets/images/flutter_habit_tracker.png";
+// import flutter_todo_app from "../assets/images/flutter_todo_app.png";
+// import flutter_ecommerce_app from "../assets/images/flutter_ecommerce_app.png";
+// import flutter_habit_tracker from "../assets/images/flutter_habit_tracker.png";
 import react_portfolio_site from "../assets/images/react_portfolio_site.png";
 import Redknights from "../assets/images/Redknights.png";
 import todolist from "../assets/images/todolist.png";
+import kanban_board from "../assets/images/kanbanBoard.png";
 
 export const MENU_LINKS = [
   { id: "01", label: "Home", offest: -100, to: "hero" },
@@ -104,15 +105,15 @@ export const SKILLS = [
     description:
       "Skilled in writing clean and efficient JavaScript code to add interactivity and dynamic functionality to web pages.",
   },
-  {
-    id: "06",
-    icon: SiTypescript,
-    skill: "Typescript",
-    progress: 45,
-    type: "frontend",
-    description:
-      "Familiar with TypeScript, a superset of JavaScript that adds static types to the language.",
-  },
+  // {
+  //   id: "06",
+  //   icon: SiTypescript,
+  //   skill: "Typescript",
+  //   progress: 45,
+  //   type: "frontend",
+  //   description:
+  //     "Familiar with TypeScript, a superset of JavaScript that adds static types to the language.",
+  // },
   {
     id: "07",
     icon: FaReact,
@@ -131,42 +132,42 @@ export const SKILLS = [
     description:
       "Familiar with NextJS, a React framework that enables functionality such as server-side rendering and static site generation.",
   },
-  {
-    id: "09",
-    icon: SiSwift,
-    skill: "Swift",
-    progress: 60,
-    type: "mobile",
-    description:
-      "Familiar with Swift, a powerful and intuitive programming language for macOS, iOS, watchOS, and tvOS.",
-  },
+  // {
+  //   id: "09",
+  //   icon: SiSwift,
+  //   skill: "Swift",
+  //   progress: 60,
+  //   type: "mobile",
+  //   description:
+  //     "Familiar with Swift, a powerful and intuitive programming language for macOS, iOS, watchOS, and tvOS.",
+  // },
   {
     id: "10",
     icon: SiSwift,
-    skill: "SwiftUI",
+    skill: "Swift / SwiftUI",
     progress: 55,
     type: "mobile",
     description:
       "Proficient in building user interfaces for iOS apps using SwiftUI, a modern way to declare user interfaces for any Apple platform.",
   },
-  {
-    id: "11",
-    icon: SiDart,
-    skill: "Dart",
-    progress: 60,
-    type: "mobile",
-    description:
-      "Proficient in Dart, a client-optimized programming language for apps on multiple platforms.",
-  },
-  {
-    id: "12",
-    icon: SiFlutter,
-    skill: "Flutter",
-    progress: 65,
-    type: "mobile",
-    description:
-      "Experienced in building mobile applications for iOS and Android using Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
-  },
+  // {
+  //   id: "11",
+  //   icon: SiDart,
+  //   skill: "Dart",
+  //   progress: 60,
+  //   type: "mobile",
+  //   description:
+  //     "Proficient in Dart, a client-optimized programming language for apps on multiple platforms.",
+  // },
+  // {
+  //   id: "12",
+  //   icon: SiFlutter,
+  //   skill: "Flutter / Dart",
+  //   progress: 65,
+  //   type: "mobile",
+  //   description:
+  //     "Experienced in building mobile applications for iOS and Android using Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+  // },
   {
     id: "13",
     icon: VscVscode,
@@ -179,21 +180,21 @@ export const SKILLS = [
   {
     id: "14",
     icon: FaGitAlt,
-    skill: "Git",
+    skill: "Git / GitHub",
     progress: 80,
     type: "tools",
     description:
       "Efficient in using Git, a distributed version control system for tracking changes in source code during software development.",
   },
-  {
-    id: "15",
-    icon: FaGithub,
-    skill: "GitHub",
-    progress: 80,
-    type: "tools",
-    description:
-      "Experienced in using GitHub, a web-based platform for version control and collaboration using Git.",
-  },
+  // {
+  //   id: "15",
+  //   icon: FaGithub,
+  //   skill: "GitHub",
+  //   progress: 80,
+  //   type: "tools",
+  //   description:
+  //     "Experienced in using GitHub, a web-based platform for version control and collaboration using Git.",
+  // },
   {
     id: "16",
     icon: MdGroups3,
@@ -203,15 +204,15 @@ export const SKILLS = [
     description:
       "Experienced in working in team-oriented environments and believe that collaboration and teamwork are essential for achieving the best results.",
   },
-  {
-    id: "17",
-    icon: LuCircleDashed,
-    skill: "Agile Methodology",
-    progress: 80,
-    type: "soft",
-    description:
-      "Familiar with Agile methodology, a project management approach that helps teams respond to unpredictability through incremental, iterative work cadences known as sprints.",
-  },
+  // {
+  //   id: "17",
+  //   icon: LuCircleDashed,
+  //   skill: "Agile Methodology",
+  //   progress: 80,
+  //   type: "soft",
+  //   description:
+  //     "Familiar with Agile methodology, a project management approach that helps teams respond to unpredictability through incremental, iterative work cadences known as sprints.",
+  // },
   {
     id: "18",
     icon: SiJira,
@@ -230,15 +231,15 @@ export const SKILLS = [
     description:
       "Experienced in using Confluence, a collaboration software program developed and published by Australian software company Atlassian.",
   },
-  {
-    id: "20",
-    icon: DiResponsive,
-    skill: "Responsive Design",
-    progress: 95,
-    type: "soft",
-    description:
-      "Proficient in designing and developing responsive websites and web applications that work seamlessly across different devices and screen sizes.",
-  },
+  // {
+  //   id: "20",
+  //   icon: DiResponsive,
+  //   skill: "Responsive Design",
+  //   progress: 95,
+  //   type: "soft",
+  //   description:
+  //     "Proficient in designing and developing responsive websites and web applications that work seamlessly across different devices and screen sizes.",
+  // },
 ];
 
 export const ABOUT_ME = {
@@ -278,6 +279,7 @@ export const PROJECTS = [
       "This project is a clone of the Hulu website built using NextJS, React and Tailwind CSS. It also calls the TMDb API to fetch movies and TV shows.",
     image: NEXTJS_PROJECT,
     tags: ["NextJS", "React", "Tailwind CSS"],
+    link: "https://hulu-clone-ruddy.vercel.app/",
   },
   {
     id: 2,
@@ -286,6 +288,7 @@ export const PROJECTS = [
       "This project is my personal portfolio site built using React and Tailwind CSS.",
     image: react_portfolio_site,
     tags: ["React", "Tailwind CSS"],
+    link: "https://webdevgary.co.uk/",
   },
   {
     id: 3,
@@ -294,6 +297,7 @@ export const PROJECTS = [
       "This project was designed and developed by myself for my local Martial Arts School. I used HTML, CSS, Bootstrap and JavaScript",
     image: Redknights,
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    link: "https://www.redknightskickboxing.com/",
   },
   {
     id: 4,
@@ -302,52 +306,77 @@ export const PROJECTS = [
       "This project is a simple ToDo site built using HTML, CSS and JavaScript.",
     image: todolist,
     tags: ["HTML", "CSS", "JavaScript"],
+    link: "https://todo-list-gary-bull.vercel.app/",
   },
   {
     id: 5,
+    title: "Kanban Board",
+    description:
+      "This project is a simple Kanban board built using HTML, CSS and JavaScript.",
+    image: kanban_board,
+    tags: ["HTML", "CSS", "JavaScript"],
+    link: "https://js-kanban-board-gary-bulls-projects.vercel.app/",
+  },
+  // {
+  //   id: 6,
+  //   title: "ToDo site",
+  //   description:
+  //     "This project is a simple ToDo site built using HTML, CSS and JavaScript.",
+  //   image: todolist,
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   link: "https://todo-list-gary-bull.vercel.app/",
+  // },
+  {
+    id: 7,
     title: "War Game iOS App",
     description:
       "This project is a simple War Game iOS app built using Swift and SwiftUI.",
     image: ios_war_game,
     tags: ["Swift", "SwiftUI"],
+    link: "https://github.com/Gary-Bull/iOS-War-Card-Game",
   },
   {
-    id: 6,
+    id: 8,
     title: "Weather App iOS UI",
     description:
       "This project is a weather app UI built using Swift and SwiftUI.",
     image: ios_weather_app_ui,
     tags: ["Swift", "SwiftUI"],
+    link: "https://github.com/Gary-Bull/iOS-Weather-UI-app",
   },
   {
-    id: 7,
+    id: 9,
     title: "Movie App iOS App",
     description:
       "This project is a movie app API lookup built using Swift and SwiftUI. It calls the TMDb API to fetch movies. It also includes a search feature.",
     image: ios_movie_app_api_lookup,
     tags: ["Swift", "SwiftUI"],
+    link: "https://github.com/Gary-Bull/Movie-iOS-app-SwiftUI",
   },
-  {
-    id: 8,
-    title: "Flutter Todo App",
-    description: "This project is a todo app built using Dart and Flutter.",
-    image: flutter_todo_app,
-    tags: ["Dart", "Flutter"],
-  },
-  {
-    id: 9,
-    title: "Flutter E-Commerce App",
-    description:
-      "This project is an e-commerce app built using Dart and Flutter.",
-    image: flutter_ecommerce_app,
-    tags: ["Dart", "Flutter"],
-  },
-  {
-    id: 10,
-    title: "Flutter Habit Tracker",
-    description:
-      "Inspired by gitHub's contribution graph, this project is a habit tracker app built using Dart and Flutter.",
-    image: flutter_habit_tracker,
-    tags: ["Dart", "Flutter"],
-  },
+  // {
+  //   id: 8,
+  //   title: "Flutter Todo App",
+  //   description: "This project is a todo app built using Dart and Flutter.",
+  //   image: flutter_todo_app,
+  //   tags: ["Dart", "Flutter"],
+  //   link: "",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Flutter E-Commerce App",
+  //   description:
+  //     "This project is an e-commerce app built using Dart and Flutter.",
+  //   image: flutter_ecommerce_app,
+  //   tags: ["Dart", "Flutter"],
+  //   link: "",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Flutter Habit Tracker",
+  //   description:
+  //     "Inspired by gitHub's contribution graph, this project is a habit tracker app built using Dart and Flutter.",
+  //   image: flutter_habit_tracker,
+  //   tags: ["Dart", "Flutter"],
+  //   link: "",
+  // },
 ];
