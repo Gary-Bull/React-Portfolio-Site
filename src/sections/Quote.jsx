@@ -2,7 +2,7 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <section className="bg-linear-to-t from-cyan-400 to-blue-400 mx-auto px-8 py-12 max-w-7xl">
+    <section className="bg-linear-to-t from-cyan-400 to-blue-400 rounded-2xl mx-auto px-8 py-12 max-w-7xl">
       <div className="container bg-white rounded-2xl shadow-2xl mx-auto p-4 sm:p-10 text-center">
         <p className="text-2xl leading-6 sm:leading-8 text-center mt-4 pb-8">
           <q>
