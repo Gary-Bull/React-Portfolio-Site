@@ -21,7 +21,7 @@ const TechnicalProficiency = () => {
       id="skills"
       className="container max-w-7xl mt-20 mx-auto px-8 py-8 bg-linear-to-b from-[#ECFAFCFF] to-[#ffffff] rounded-2xl scroll-mt-14"
     >
-      <div className="container mx-auto p-10">
+      <div className="container mx-auto p-4 sm:p-10">
         <div className="w-full mx-auto">
           <h4 className="section-title">Technical Proficiency</h4>
           <p className="text-sm text-center mt-4 leading-6">
