@@ -6,6 +6,7 @@ import AboutMe from "./sections/AboutMe";
 import MyProjects from "./sections/MyProjects";
 import ContactMe from "./sections/ContactMe";
 import Footer from "./sections/Footer";
+import Quote from "./sections/Quote";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <TechnicalProficiency />
+      <Quote />
       <AboutMe />
       <MyProjects />
       <ContactMe />
